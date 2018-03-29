@@ -1,0 +1,40 @@
+size 500 500
+glMatrixMode GL_PROJECTION
+glLoadIdentity
+glFrustum -1 1 -1 1 1 4
+glMatrixMode GL_MODELVIEW
+glLoadIdentity
+glTranslate 0 0 0
+glScale 10 10 10
+glBegin GL_TRIANGLES
+glColor 1 0 0
+glVertex3 -0.446857 -0.102994 -0.001582
+glColor 1 0 0
+glVertex3 -0.449059 -0.0958945 0.00515925
+glColor 1 0 0
+glVertex3 -0.458519 -0.109974 0.00651027
+glColor 1 .5 0
+glVertex3 -0.446857 -0.102994 -0.001582
+glColor 1 .5 0
+glVertex3 -0.440838 -0.0847351 -0.00119875
+glColor 1 .5 0
+glVertex3 -0.449059 -0.0958945 0.00515925
+glColor .5 .5 .5
+glVertex3 0.159211 0.223112 -0.0096935
+glColor .5 .5 .5
+glVertex3 0.146096 0.222751 -0.000278999
+glColor .5 .5 .5
+glVertex3 0.158749 0.224376 7.85012e-05
+glColor 0 0 1
+glVertex3 -.085779 -0.0642125 -0.121141
+glColor 0 0 1
+glVertex3 -.058753 -0.0045044 -0.122135
+glColor 0 0 1
+glVertex3 -.20934 -0.00221154 -0.122682
+glColor 1 1 0
+glVertex3 -.085779 -0.0642125 -0.121141
+glColor 1 1 0
+glVertex3 .051916 -0.066212 -0.118211
+glColor 1 1 0
+glVertex3 -.058753 -0.0045044 -0.122135
+glEnd

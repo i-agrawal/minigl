@@ -1,0 +1,17 @@
+glMatrixMode GL_PROJECTION
+glLoadIdentity
+glFrustum -1 1 -1 1 1 100
+glMatrixMode GL_MODELVIEW
+glLoadIdentity
+glBegin GL_TRIANGLES
+glColor 1 0 0
+glVertex3 1 -1 -1.1
+glColor 0 1 0
+glVertex3 1 1 -1.1
+glColor 0 0 1
+glVertex3 -4 1 -5
+glColor 1 1 1
+glVertex3 -1.8 -1.8 -2
+glVertex3 -1.8 1.8 -2
+glVertex3 1.8 1.8 -2
+glEnd
