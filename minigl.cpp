@@ -1,6 +1,5 @@
 /**
  * Name: Ishan Agrawal
- * SID:  861229134
  * user: iagra001
  *
  * minigl.cpp
